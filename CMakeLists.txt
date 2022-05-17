@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 3.10)
 
 # set the project name
+set(CMAKE_GENERATOR_PLATFORM Win32 CACHE INTERNAL "Force 32-bit compilation")
+
 project(SimpleGameEngine)
 
 # include_directories(${CMAKE_SOURCE_DIR}/inc)

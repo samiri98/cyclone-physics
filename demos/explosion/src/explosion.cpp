@@ -11,9 +11,9 @@
  */
 
 #include <cyclone/cyclone.h>
-#include "../ogl_headers.h"
-#include "../app.h"
-#include "../timing.h"
+#include "ogl_headers.h"
+#include "app.h"
+#include "timing.h"
 
 #include <stdio.h>
 

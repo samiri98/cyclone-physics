@@ -4,8 +4,8 @@ set(include_dirs "${CMAKE_CURRENT_LIST_DIR}/../common/include/glew/" "${CMAKE_CU
 set(lib_dirs "${CMAKE_CURRENT_LIST_DIR}/../common/lib/" "${CMAKE_CURRENT_LIST_DIR}/../common/lib/glew/Win32/" "${CMAKE_CURRENT_LIST_DIR}/../common/lib/glut/")
 
 
-add_executable(ballistic_demo ${src} ${headers})
+add_executable(ragdoll_demo ${src} ${headers})
 set_target_properties(cyclone PROPERTIES LINKER_LANGUAGE CXX)
-target_include_directories(ballistic_demo PRIVATE ${include_dirs})
-target_link_directories(ballistic_demo PRIVATE ${lib_dirs})
-target_link_libraries(ballistic_demo glew32s.lib freeglut.lib cyclone.lib)
+target_include_directories(ragdoll_demo PRIVATE ${include_dirs})
+target_link_directories(ragdoll_demo PRIVATE ${lib_dirs})
+target_link_libraries(ragdoll_demo glew32s.lib freeglut.lib cyclone.lib)
